@@ -2,8 +2,6 @@
 
 #include "iostream"
 #include "raylib.h"
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
 
 void Log(std::string output, std::string relevance = "Note") {
 	Color logCol = RAYWHITE; // By default in case an issue occurs
